@@ -1,0 +1,59 @@
+[2026-10-24T19:25:53.043Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.7f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 22100 --ipc-path Unity-Upm-22100 -l 2 --log-file C:\\Repositorios\\Breakout\\Breakout/Logs/upm.log
+[2026-10-24T19:25:53.097Z][INFO] IPC server started (IPC path=Unity-Upm-22100).
+[2026-10-24T19:25:53.097Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-22100.
+[2026-10-24T19:26:01.665Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T19:26:02.517Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T19:26:02.532Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-24T19:26:02.559Z][INFO] config:project:get-registries --> 200 (27 ms)
+[2026-10-24T19:26:02.590Z][INFO] project:update-dependencies <-- Request received
+params: {}
+[2026-10-24T19:26:02.656Z][INFO] project:update-dependencies --> 200 (66 ms)
+[2026-10-24T19:26:02.683Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-10-24T19:26:02.831Z][INFO] project:list-packages --> 200 (314 ms)
+[2026-10-24T19:26:02.833Z][INFO] project:list-packages --> 200 (1168 ms)
+[2026-10-24T19:26:03.159Z][INFO] Downloading package [com.unity.package-manager.metadata-6000.6@0.0.96] from registry 'https://packages.unity.com'
+[2026-10-24T19:26:04.372Z][INFO] Finished downloading package [com.unity.package-manager.metadata-6000.6@0.0.96] from registry 'https://packages.unity.com' (size: 11.5 kB, time: 1.2s)
+[2026-10-24T19:26:06.199Z][INFO] Downloading package [com.unity.ide.visualstudio@2.0.28] from registry 'https://packages.unity.com'
+[2026-10-24T19:26:06.809Z][INFO] Finished downloading package [com.unity.ide.visualstudio@2.0.28] from registry 'https://packages.unity.com' (size: 890 kB, time: 610ms)
+[2026-10-24T19:26:22.291Z][INFO] project:resolve-packages --> 200 (19607 ms)
+[2026-10-24T19:27:09.817Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T19:27:09.873Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T19:27:10.026Z][INFO] project:list-packages --> 200 (209 ms)
+[2026-10-24T19:27:10.075Z][INFO] project:list-packages --> 200 (202 ms)
+[2026-10-24T19:27:10.287Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-24T19:27:10.292Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-10-24T19:27:14.444Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T19:27:14.584Z][INFO] project:list-packages --> 200 (140 ms)
+[2026-10-24T19:27:17.204Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T19:27:17.350Z][INFO] project:list-packages --> 200 (146 ms)
+[2026-10-24T19:27:19.217Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T19:27:20.914Z][INFO] project:list-packages --> 200 (1697 ms)
+[2026-10-24T19:40:40.787Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T19:40:40.921Z][INFO] project:list-packages --> 200 (134 ms)
+[2026-10-24T19:40:41.360Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-24T19:40:41.367Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2026-10-24T21:29:03.763Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T21:29:03.828Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-24T21:29:04.243Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T21:29:06.018Z][INFO] project:list-packages --> 200 (2255 ms)
+[2026-10-24T21:29:06.020Z][INFO] project:list-packages --> 200 (1778 ms)
+[2026-10-24T21:29:08.685Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T21:29:08.918Z][INFO] project:list-packages --> 200 (233 ms)
+[2026-10-24T21:29:09.141Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-24T21:29:09.359Z][INFO] project:list-packages --> 200 (219 ms)
